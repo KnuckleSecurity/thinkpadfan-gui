@@ -1,4 +1,4 @@
-# Thinkpad-fan-gui
+# Thinkpad Fan Tweaker GUI
 
 <p align="left">
   <a href="https://github.com/krygeNNN/thinkpadfan-gui">
@@ -11,21 +11,27 @@
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+Spesifically designed for ThinkPad/IBM laptops to twek fan speed with an graphical user interface.
+You can also monitor CPU, GPU temperatures.
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* python3 libraries --> tkinter, subprocess, shlex
+* Any Linux kernel
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* git clone https://github.com/krygeNNN/thinkpadfan-gui.git
+* pip3 install -r requirements.txt
+ ```
+  git clone https://github.com/krygeNNN/thinkpadfan-gui.git
+  pip3 install -r requirements.txt
+  ```
+ 
 
-### Executing program
+### Setup
 
 * How to run the program
 * Step-by-step bullets
