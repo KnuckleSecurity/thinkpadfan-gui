@@ -4,6 +4,10 @@
   <a href="https://github.com/krygeNNN/thinkpadfan-gui">
     <img src="Images/fan-icon-vector-15.png" alt="Logo" width="80" height="80">
   </a>
+<p align="center">
+  <a href="https://github.com/krygeNNN/thinkpadfan-gui">
+    <img src="Images/thinkpadgui.png" alt="Logo" width="80" height="80">
+  </a>
 
 ## Description
 
