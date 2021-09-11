@@ -14,8 +14,6 @@
 Spesifically designed for ThinkPad/IBM laptops to twek fan speed with an graphical user interface.
 You can also monitor CPU, GPU temperatures.
 
-## Getting Started
-
 ### Dependencies
 
 * Python3 libraries --> python3 python3-tk, subprocess, shlex
