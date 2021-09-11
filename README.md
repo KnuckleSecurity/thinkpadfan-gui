@@ -1,6 +1,9 @@
 # Thinkpad-fan-gui
 
-![all text](https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fpic&psig=AOvVaw2wRpwot5wuWJ652QTBMb6k&ust=1631480420079000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCOj3tqno9_ICFQAAAAAdAAAAABAD)
+<p align="center">
+  <a href="https://github.com/krygeNNN/thinkpadfan-gui">
+    <img src="Images/fan-icon-vector-15.png" alt="Logo" width="80" height="80">
+  </a>
 
 ## Description
 
