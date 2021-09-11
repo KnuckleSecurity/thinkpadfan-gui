@@ -18,6 +18,7 @@ def get_temps():
                 temps.append(elements)
         device_index+=1
     return temps
+
 def fan_speed(level=None):
     print(f"Set level to {level}")
     set_speed=sb.check_output(f"echo level {level} | sudo tee '/proc/acpi/ibm/fan'",shell=True) 
@@ -27,13 +28,12 @@ def display_loop():
     while True:
         sleep(0.5)
         display_label["text"]=" // ".join(get_temps())
-Thread(target=display_loop).start()
 root=Tk()
 root.geometry("405x90")
 display_label=Label(root,text="")
 display_label.place(x=0,y=0)
 root.title("ThinkPad Fan Controller")
-icon=PhotoImage(file="./Images/fan-icon-vector-15.png")
+icon=PhotoImage(file="/home/burak/folders/programming/pydir/scripts_one/thiknfan-git/Images/fan-icon-vector-15.png")
 root.iconphoto(False,icon)
 cmd_one='sudo dmidecode'
 dmidecode_info=sb.Popen(shlex.split(cmd_one),stdout=sb.PIPE)
@@ -47,4 +47,8 @@ for i in range(8):
     Button(root,text=f"L{i}",command=lambda x=i :fan_speed(x)).place(x=5+(i*50),y=20)
 Button(root,text=f"Auto",command=lambda :fan_speed("auto")).place(x=343,y=55)
 Button(root,text=f"Full-Speed",command=lambda :fan_speed("full-speed")).place(x=245,y=55)
+try:
+    Thread(target=display_loop).start()
+except:
+    pass
 root.mainloop()
