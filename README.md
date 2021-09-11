@@ -11,7 +11,7 @@
 
 ## Description
 
-Spesifically designed for ThinkPad and IBM laptops to tweak fan speed with an graphical user interface.
+Spesifically designed for ThinkPad and IBM laptops to tweak fan speed with a graphical user interface.
 You can also monitor CPU, GPU temperatures.
 
 ### Dependencies
