@@ -16,7 +16,7 @@ You can also monitor CPU, GPU temperatures.
 
 ### Dependencies
 
-* Python3 libraries --> python3 python3-tk, subprocess, shlex
+* Python3 libraries --> subprocess, shlex
 * Unix binaries --> lm-sensors
 * OS --> Any Linux kernel with `thinkpad-acpi` patch. 
 
