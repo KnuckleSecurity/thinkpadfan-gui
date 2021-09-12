@@ -27,11 +27,11 @@ You can also monitor CPU, GPU temperatures.
   ```
 Arch Based
   ```
-  sudo pacman -S lm-sensors
+  sudo pacman -S lm-sensors dmidecode
   ```
 Debian Based
   ```
-  sudo apt-get install lm-sensors
+  sudo apt-get install lm-sensors dmidecode
   ```
 
 ### Setup
