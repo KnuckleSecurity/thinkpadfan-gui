@@ -33,7 +33,7 @@ root.geometry("405x90")
 display_label=Label(root,text="")
 display_label.place(x=0,y=0)
 root.title("ThinkPad Fan Controller")
-directory=sb.check_output("pwd").decode("utf-8")
+icon=PhotoImage(file="./Images/fan-icon-vector-15.png")
 root.iconphoto(False,icon)
 cmd_one='sudo dmidecode'
 dmidecode_info=sb.Popen(shlex.split(cmd_one),stdout=sb.PIPE)
