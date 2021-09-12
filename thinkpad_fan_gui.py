@@ -33,7 +33,7 @@ root.geometry("405x90")
 display_label=Label(root,text="")
 display_label.place(x=0,y=0)
 root.title("ThinkPad Fan Controller")
-icon=PhotoImage(file="/home/burak/folders/programming/pydir/scripts_one/thiknfan-git/Images/fan-icon-vector-15.png")
+directory=sb.check_output("pwd").decode("utf-8")
 root.iconphoto(False,icon)
 cmd_one='sudo dmidecode'
 dmidecode_info=sb.Popen(shlex.split(cmd_one),stdout=sb.PIPE)
